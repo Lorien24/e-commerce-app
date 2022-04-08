@@ -1,0 +1,14 @@
+.app__slider-wrapper{
+    height: 100%;
+}
+.app__slider-slide{
+    display: flex;
+    align-items: center;
+}
+
+.app__slider-slide_imgContainer{
+    flex: 1;
+}
+.app__slider-slide_infoContainer{
+    flex: 1;
+}
