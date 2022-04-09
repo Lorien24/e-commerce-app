@@ -1,14 +1,25 @@
-.app__slider-wrapper{
-    height: 100%;
-}
-.app__slider-slide{
-    display: flex;
-    align-items: center;
-}
+
 
 .app__slider-slide_imgContainer{
     flex: 1;
+    height: 100%;
 }
 .app__slider-slide_infoContainer{
     flex: 1;
+    padding: 50px;
+}
+.app__slider-h1{
+    font-size: 70px;
+}
+.app__slider-p{
+    margin: 50px 0;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.app__slider-button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
 }
